@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Favicon icon-->
+    <link rel="shortcut icon" href="img/Warner Bros.png">
+    
+    <title>Feedback</title>
+</head>
+<body>
+    <!--Navigation bar-->
+     <section id="nav">
+        <div class="container">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="welcome.html">Home</a>
+                    </li>
+                    <li>
+                    <li class="dropdown"><!--Dropdown-->
+                        <a href="javascript:void(0)" class="dropbtn">Explore</a>
+                        <div class="dropdown-content">
+                            <a href="movies.html">Movies</a>
+                            <a href="games & app.html">Games & App</a>
+                            <a href="Tv shows.html">TV Shows</a>
+                            <a href="collections.html">Collections</a>
+                        </div>
+                    </li><!--End of dropdown-->
+                    <li>
+                        <a href="feedback.html">Feedback</a>
+                    </li>
+                    <!--Logo-->
+                    <div class="nav-img">
+                        <img src="img/Warner Bros.png" alt="navigation bar image" height="50">
+                    </div><!--End of logo-->
+                </ul>
+            </div>
+        </div>
+    </section><!--End of Navigation bar-->
+    
+    <!--Contact Form-->
+    <section>
+        <div class="h1" style="margin-top: 3%; text-align: center;">
+            <h1><span><b>Contact Form</b></span></h1>
+        </div>
+        <div class="container-fluid">
+            <form action="">
+                <label for="fname" style="font-size: x-large;">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname" style="font-size: x-large;">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country" style="font-size: x-large;">Genre</label>
+                <select id="country" name="country">
+                <option value="australia">Action</option>
+                <option value="canada">Comedy</option>
+                <option value="usa">Romance</option>
+                </select>
+
+                <label for="subject" style="font-size: x-large;">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+       <!--Footer section-->
+       <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="card1">
+                        <small>TM & © 2023 Warner Bros. Entertainment Inc. All rights reserved.</small>
+                    </div>
+                    <div class="card1">
+                        <small>Created by Constance</small>
+                    </div>
+                </div>
+            </div>
+        </section><!--end of Footer-->
+</body>
+</html>
